@@ -1,8 +1,5 @@
-const path=require('path');
 const express = require("express");
-const rootDir=require('../util/path');
 const router = express.Router();
-router.use('/',(req,res)=>{
-    res.sendFile(path.join(rootDir,'views','404.html'))
-})
+const errorPageController=require('../controllers/errorPage');
+router.use(errorPageController.errorPage);
 module.exports = router;
