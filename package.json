@@ -1,0 +1,28 @@
+{
+  "name": "express-js",
+  "version": "1.0.0",
+  "description": "Learning controllers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambika-devi/Express-Js.git"
+  },
+  "author": "Ambika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambika-devi/Express-Js/issues"
+  },
+  "homepage": "https://github.com/ambika-devi/Express-Js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  }
+}
